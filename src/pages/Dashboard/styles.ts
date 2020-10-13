@@ -20,6 +20,7 @@ export const Form = styled.form`
   input {
     flex: 1;
     height: 70px;
+    padding: 0 24px;
     border: 0;
     border-radius: 5px 0 0 5px;
     color: #3a3a3a;
@@ -75,7 +76,8 @@ export const Repositories = styled.div`
     }
 
     div {
-      margin-left: 16px;
+      margin: 0 16px;
+      flex: 1; // faz se ajustar ao tamanho disponível
 
       strong {
         font-size: 20px;
